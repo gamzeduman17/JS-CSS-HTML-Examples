@@ -9,7 +9,7 @@ function updateTime()
     let m=new Date().getMinutes();
     let s=new Date().getSeconds();
     let pmam="AM";
-if(h<12)
+if(h>12)
 {
     h=h-12;
     pm_am="PM";
@@ -28,7 +28,7 @@ setTimeout(()=>{
 }
 
 
-
+updateTime();
 
 
 
