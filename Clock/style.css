@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    background-color: rgb(184, 175, 121);
+    overflow: hidden;
+}
+h2{
+    color: rgb(25, 2, 47);
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+.time{
+    display: flex;
+}
+.time div{
+    margin: 8px;
+    position: relative;
+}
+.time span{
+    width: 100px;
+    height: 80px;
+    background: rgb(146, 56, 199);
+    margin: 4px;
+    color: rgb(3, 3, 3);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+
+}
+.time #writing{
+    height: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: slateblue;
+    opacity: 0.8;
+
+}
+.time #pm_am{
+    bottom: 35px;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color:slateblue;
+    font-size: larger;
+    align-items: center;
+
+}
