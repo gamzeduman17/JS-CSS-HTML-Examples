@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+div{
+    color:black;
+    padding: 50px;
+}
+body{
+    background: beige;
+}
+h2{
+    color: black;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,#EB1D36, #AA6000);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#63161f,#774f1b);
+}
