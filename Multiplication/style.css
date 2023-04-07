@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(218, 195, 133);
+}
+input{
+    height: 50px;
+    font-size: 20px;
+    background-color: chocolate;
+    color: beige;
+    font-weight: bold;
+    margin-top:10px;
+    width: 150px;
+    box-shadow: 4px 4px 13px #5e3e06;
+    border-radius: 8px;
+    text-align: center;
+}
+output{
+    background-color: beige;
+    color: black;
+    display: none;
+    margin-left: 5%;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    box-shadow: 4px 4px 13px #5e3e06;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#clear{
+    display: none;
+    color:white;
+    font-size: 18px;
+    height: 50px;
+    width: 110px;
+    background-color: tomato;
+}

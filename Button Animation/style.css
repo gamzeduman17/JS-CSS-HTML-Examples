@@ -1,0 +1,44 @@
+body{
+    justify-content: center;
+    background-color: #E3FCBF;
+    flex-direction: column;
+    align-items: 100vh;
+    display: flex;
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    position: relative;
+    display: inline-block;
+    letter-spacing: 6px;
+    font-size: 30px;
+    border: 3px solid black;
+    background: linear-gradient(90deg,#14C38E,#00FFAB);
+    text-decoration:none;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 30px 70px;
+    color: #E3FCBF;
+    overflow: hidden;
+    border-radius: 20px;
+}
+span{
+    animation: animation 1s linear infinite;
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    background: antiquewhite;
+    transform: translate(-40%,-40%);
+}
+@keyframes animation{
+    0%{
+        width: 0px;
+        height: 0px;
+        opacity: 0.5;
+    }
+    100%{
+        width: 50px;
+        height: 50px;
+    }
+}
